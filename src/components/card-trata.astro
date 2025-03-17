@@ -1,0 +1,33 @@
+---
+interface Props {
+  id: string;
+  cardImg: string;
+  cardTitle: string;
+  cardText: string;
+}
+
+const { id, cardImg, cardTitle, cardText } = Astro.props;
+---
+
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="card card-trat shadow-lg">
+    <a
+      href="#"
+      class="text-decoration-none"
+      type="button"
+      data-bs-toggle="modal"
+      data-bs-target={id}
+    >
+      <img src={cardImg} class="card-img" alt="..." />
+      <div class="card-img-overlay text-center">
+        <h5 class="card-title text-black">{cardTitle}</h5>
+        <p class="card-text">{cardText}</p>
+        <a
+          href="#"
+          class="btn btn-primary shadow position-absolute bottom-0 start-50 translate-middle-x mb-3"
+          >Ver mas</a
+        >
+      </div>
+    </a>
+  </div>
+</div>

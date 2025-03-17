@@ -1,0 +1,64 @@
+---
+import bg from "../assets/img/bg.jpg";
+import Modal from "./modal.astro";
+import CardTrata from "./card-trata.astro";
+---
+
+<section class="container section-2">
+  <div class="row">
+    <div class="col text-center mb-3">
+      <h3>TRATAMIENTOS ODONTOLÓGICOS</h3>
+      <p>
+        En <b>ESPACIO ODONTOLÓGICO</b> nos ocupamos del diagnóstico y de tratamientos
+        terapéuticos y estéticos.
+      </p>
+    </div>
+
+    <div class="col-12">
+      <div
+        class="row g-3 d-flex justify-content-around wow animate__animated animate__bounceIn animate__slow"
+      >
+        <CardTrata
+          id="#staticBackdrop"
+          ;
+          ,
+          cardImg={bg.src}
+          ;
+          ,
+          cardTitle="IMPLANTES"
+          ;
+          cardText="Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
+          ;
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<Modal
+  id="#staticBackdrop"
+  ;
+  ,
+  cardImgModal={bg.src}
+  ;
+  ,
+  cardTitleModal="BENEFICIOS DE LOS IMPLANTES DENTALES "
+  ;
+  cardPreg1="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardRes1="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardPreg2="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardRes2="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardPreg3="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardRes3="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  ;
+  cardPreg4=""
+  ;
+  cardRes4=""
+  ;
+/>
+l

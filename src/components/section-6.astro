@@ -1,0 +1,177 @@
+---
+import "swiper/css/bundle";
+import CardProfe from "./card-profe.astro";
+---
+
+<section id="3" class="container">
+  <div class="text-center">
+    <h3>NUESTROS PROFESIONALES ODONTÓLOGOS</h3>
+    <p>
+      En <b>ESPACIO ODONTOLÓGICO</b> acompañamos a cada paciente con dedicación y
+      cariño. Contamos con un equipo de especialistas que trabaja de manera integral,
+      pensando siempre en lo mejor para vos. Porque tu bienestar y tu felicidad nos
+      importan.
+    </p>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div
+      class="swiper p-2 col-12 col-md-6 col-lg-4 wow animate__animated animate__flipInY animate__slower"
+    >
+      <div class="swiper-wrapper people">
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 1"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 2"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 3"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+      </div>
+    </div>
+
+    <div
+      class="swipers p-2 col-12 col-md-6 col-lg-4 wow animate__animated animate__flipInY animate__slower"
+    >
+      <div class="swiper-wrapper people">
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 1"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 2"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 3"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+      </div>
+    </div>
+
+    <div
+      class="swiperss p-2 col-12 col-md-6 col-lg-4 wow animate__animated animate__flipInY animate__slower"
+    >
+      <div class="swiper-wrapper people">
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 1"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 2"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+
+        <CardProfe
+          cardImgProfe="https://randomuser.me/api/portraits/men/52.jpg"
+          ;
+          cardNameProfe="Dra. Fani Tapia 3"
+          ;
+          cardProfeCargo="Directora de DOCTA DENT | Cirugía e Implantología"
+          ;
+          cardProfeCode="MP 5.688"
+          ;
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import Swiper from "swiper/bundle";
+
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    effect: "flip",
+    grabCursor: true,
+    loop: true,
+
+    // Enabled autoplay mode
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+  });
+
+  const swipers = new Swiper(".swipers", {
+    // Optional parameters
+    effect: "flip",
+    grabCursor: true,
+    loop: true,
+
+    // Enabled autoplay mode
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+  });
+
+  const swiperss = new Swiper(".swiperss", {
+    // Optional parameters
+    effect: "flip",
+    grabCursor: true,
+    loop: true,
+
+    // Enabled autoplay mode
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+  });
+</script>

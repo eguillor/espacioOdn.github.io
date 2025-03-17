@@ -1,0 +1,28 @@
+---
+interface Props {
+  cardImgProfe: string;
+  cardNameProfe: string;
+  cardProfeCargo: string;
+  cardProfeCode: string;
+}
+
+const { cardImgProfe, cardNameProfe, cardProfeCargo, cardProfeCode } =
+  Astro.props;
+---
+
+<div class="swiper-slide d-flex justify-content-center">
+  <div class="card profile-card shadow-sm">
+    <div class="card-body text-center">
+      <img
+        src={cardImgProfe}
+        alt={cardNameProfe}
+        class="rounded-circle profile-img mb-3"
+      />
+      <h5 class="card-title mb-2">{cardNameProfe}</h5>
+      <p class="card-text text-muted mb-3">
+        {cardProfeCargo}
+      </p>
+      <p class="card-text text-muted">{cardProfeCode}</p>
+    </div>
+  </div>
+</div>

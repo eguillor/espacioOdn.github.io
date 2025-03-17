@@ -1,0 +1,59 @@
+---
+import logo1 from "../assets/logo-1.png";
+---
+
+<nav class="navbar navbar-expand-lg mb-5">
+  <div class="container">
+    <a class="navbar-brand z-0" href="#1" aria-current="page" data-scroll-spy>
+      <img src={logo1.src} width="120" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul
+        class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row justify-content-around flex-wrap"
+      >
+        <li class="nav-item">
+          <a class="nav-link" href="#2" data-scroll-spy> URGENCIAS 24 HS </a>
+        </li>
+
+        <li class="nav-item dropdown z-3">
+          <button
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            TRATAMIENTOS
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a
+                class="dropdown-item"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">IMPLANTES</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#3" data-scroll-spy> NUESTROS EQUIPO </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> AGENDA TU CONSULTA </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

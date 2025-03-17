@@ -1,0 +1,105 @@
+---
+interface Props {
+  id: string;
+  cardImgModal: string;
+  cardTitleModal: string;
+  cardPreg1: string;
+  cardRes1: string;
+  cardPreg2: string;
+  cardRes2: string;
+  cardPreg3: string;
+  cardRes3: string;
+  cardPreg4: string;
+  cardRes4: string;
+}
+
+const {
+  id,
+  cardImgModal,
+  cardTitleModal,
+  cardPreg1,
+  cardRes1,
+  cardPreg2,
+  cardRes2,
+  cardPreg3,
+  cardRes3,
+  cardPreg4,
+  cardRes4,
+} = Astro.props;
+---
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="col text-center mb-4">
+          <h3>{cardTitleModal}</h3>
+        </div>
+        <div class="row gap-3">
+          <div class="col">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <h5>{cardPreg1}</h5>
+                <p class="ms-1">
+                  {cardRes1}
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <img
+                    src={cardImgModal}
+                    class="card-img w-75 h-75 rounded-2 shadow-lg"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                <h5>
+                  {cardPreg2}
+                </h5>
+                <p class="ms-1">
+                  {cardRes2}
+                </p>
+                <h5>
+                  {cardPreg3}
+                </h5>
+                <p class="ms-1">
+                  {cardRes3}
+                </p>
+                <h5>
+                  {cardPreg4}
+                </h5>
+                <p class="ms-1">
+                  {cardRes4}
+                </p>
+                <div class="row mt-4">
+                  <div class="col">
+                    <div class="d-grid gap-2 mx-auto w-50">
+                      <a href="" class="btn btn-primary" type="button"
+                        >QUIERO SABER MÁS</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
