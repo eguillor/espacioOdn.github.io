@@ -18,12 +18,15 @@ const { id, cardImg, cardTitle, cardText } = Astro.props;
       data-bs-toggle="modal"
       data-bs-target={id}
     >
-      <img src={cardImg} class="card-img" alt="..." />
+      <img src={cardImg} class="card-img" alt={cardTitle} />
       <div class="card-img-overlay text-center">
         <h5 class="card-title text-black">{cardTitle}</h5>
         <p class="card-text">{cardText}</p>
         <a
-          href="#"
+          href="/#"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target={id}
           class="btn btn-primary shadow position-absolute bottom-0 start-50 translate-middle-x mb-3"
           >Ver mas</a
         >

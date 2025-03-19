@@ -1,0 +1,28 @@
+[
+    {
+    "id":"staticBackdrop",
+    "cardImgModal":"./src/assets/img/bg.jpg",
+    "cardTitleModal":"BENEFICIOS DE LOS IMPLANTES DENTALES ",
+    "cardPreg1":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardRes1":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardPreg2":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardRes2":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardPreg3":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",  
+    "cardRes3":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",  
+    "cardPreg4":"",
+    "cardRes4":""
+    },
+    {
+    "id":"static",
+    "cardImgModal":"./src/assets/img/bg2.jpg",
+    "cardTitleModal":"BENEFICIOS DE LOS IMPLANTES DENTALES ",
+    "cardPreg1":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardRes1":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardPreg2":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardRes2":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    "cardPreg3":"¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",  
+    "cardRes3":"➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.",  
+    "cardPreg4":"",
+    "cardRes4":""
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "#staticBackdrop",
+        "cardImg": "./src/assets/img/bg.jpg",
+        "cardTitle": "IMPLANTES",
+        "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
+    },
+    {
+        "id": "#static",
+        "cardImg": "./src/assets/img/bg2.jpg",
+        "cardTitle": "IMPLANTES",
+        "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
+    }
+    
+]
+

@@ -2,6 +2,8 @@
 import bg from "../assets/img/bg.jpg";
 import Modal from "./modal.astro";
 import CardTrata from "./card-trata.astro";
+import Tratamientos from "../data/tratamientos.json";
+import ModalTrata from "../data/modal-tratamientos.json";
 ---
 
 <section class="container section-2">
@@ -18,47 +20,39 @@ import CardTrata from "./card-trata.astro";
       <div
         class="row g-3 d-flex justify-content-around wow animate__animated animate__bounceIn animate__slow"
       >
-        <CardTrata
-          id="#staticBackdrop"
-          ;
-          ,
-          cardImg={bg.src}
-          ;
-          ,
-          cardTitle="IMPLANTES"
-          ;
-          cardText="Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
-          ;
-        />
+        {
+          Tratamientos.map((tratamientos) => {
+            return (
+              <CardTrata
+                id={tratamientos.id}
+                cardImg={tratamientos.cardImg}
+                cardTitle={tratamientos.cardTitle}
+                cardText={tratamientos.cardText}
+              />
+            );
+          })
+        }
       </div>
     </div>
   </div>
 </section>
 
-<Modal
-  id="#staticBackdrop"
-  ;
-  ,
-  cardImgModal={bg.src}
-  ;
-  ,
-  cardTitleModal="BENEFICIOS DE LOS IMPLANTES DENTALES "
-  ;
-  cardPreg1="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardRes1="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardPreg2="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardRes2="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardPreg3="¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardRes3="➤ ¿lorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-  ;
-  cardPreg4=""
-  ;
-  cardRes4=""
-  ;
-/>
-l
+{
+  ModalTrata.map((modalTrata) => {
+    return (
+      <Modal
+        id={modalTrata.id}
+        cardImgModal={modalTrata.cardImgModal}
+        cardTitleModal={modalTrata.cardTitleModal}
+        cardPreg1={modalTrata.cardPreg1}
+        cardRes1={modalTrata.cardRes1}
+        cardPreg2={modalTrata.cardPreg2}
+        cardRes2={modalTrata.cardRes2}
+        cardPreg3={modalTrata.cardPreg3}
+        cardRes3={modalTrata.cardRes3}
+        cardPreg4={modalTrata.cardPreg4}
+        cardRes4={modalTrata.cardRes4}
+      />
+    );
+  })
+}

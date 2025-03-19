@@ -31,7 +31,7 @@ const {
 <!-- Modal -->
 <div
   class="modal fade"
-  id="staticBackdrop"
+  id={id}
   data-bs-backdrop="static"
   data-bs-keyboard="false"
   tabindex="-1"
@@ -63,7 +63,7 @@ const {
                   <img
                     src={cardImgModal}
                     class="card-img w-75 h-75 rounded-2 shadow-lg"
-                    alt="..."
+                    alt={cardTitleModal}
                   />
                 </div>
               </div>
@@ -89,8 +89,10 @@ const {
                 <div class="row mt-4">
                   <div class="col">
                     <div class="d-grid gap-2 mx-auto w-50">
-                      <a href="" class="btn btn-primary" type="button"
-                        >QUIERO SABER MÁS</a
+                      <a
+                        href="https://wa.me/5490889612468"
+                        target="_blank"
+                        class="btn btn-primary">QUIERO SABER MÁS</a
                       >
                     </div>
                   </div>
