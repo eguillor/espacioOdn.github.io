@@ -1,6 +1,4 @@
 ---
-import bg from "../assets/img/bg.jpg";
-import bg2 from "../assets/img/bg.jpg";
 import Modal from "./modal.astro";
 import CardTrata from "./card-trata.astro";
 import Tratamientos from "../data/tratamientos.json";
@@ -26,7 +24,7 @@ import ModalTrata from "../data/modal-tratamientos.json";
             return (
               <CardTrata
                 id={tratamientos.id}
-                cardImg={tratamientos.cardImg}
+                src={tratamientos.cardImg}
                 cardTitle={tratamientos.cardTitle}
                 cardText={tratamientos.cardText}
               />
@@ -43,7 +41,7 @@ import ModalTrata from "../data/modal-tratamientos.json";
     return (
       <Modal
         id={modalTrata.id}
-        cardImgModal={modalTrata.cardImgModal}
+        src={modalTrata.cardImgModal}
         cardTitleModal={modalTrata.cardTitleModal}
         cardPreg1={modalTrata.cardPreg1}
         cardRes1={modalTrata.cardRes1}

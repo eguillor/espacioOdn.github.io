@@ -1,7 +1,7 @@
 ---
 interface Props {
   id: string;
-  cardImgModal: string;
+  src: string;
   cardTitleModal: string;
   cardPreg1: string;
   cardRes1: string;
@@ -15,7 +15,7 @@ interface Props {
 
 const {
   id,
-  cardImgModal,
+  src,
   cardTitleModal,
   cardPreg1,
   cardRes1,
@@ -61,7 +61,7 @@ const {
                 </p>
                 <div class="d-flex justify-content-center mt-4">
                   <img
-                    src={cardImgModal}
+                    src={src}
                     class="card-img w-75 h-75 rounded-2 shadow-lg"
                     alt={cardTitleModal}
                   />

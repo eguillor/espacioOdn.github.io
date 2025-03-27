@@ -1,14 +1,12 @@
 ---
-import { Image } from "astro:assets";
-
 interface Props {
   id: string;
-  cardImg: string;
+  src: string;
   cardTitle: string;
   cardText: string;
 }
 
-const { id, cardImg, cardTitle, cardText } = Astro.props;
+const { id, src, cardTitle, cardText } = Astro.props;
 ---
 
 <div class="col-12 col-md-6 col-lg-4">
@@ -20,7 +18,7 @@ const { id, cardImg, cardTitle, cardText } = Astro.props;
       data-bs-toggle="modal"
       data-bs-target={id}
     >
-      <img src={cardImg} class="card-img" alt={cardTitle} />
+      <img src={src} class="card-img" alt={cardTitle} />
       <div class="card-img-overlay text-center">
         <h5 class="card-title text-black">{cardTitle}</h5>
         <p class="card-text">{cardText}</p>
