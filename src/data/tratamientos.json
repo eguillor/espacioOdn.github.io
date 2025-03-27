@@ -1,13 +1,13 @@
 [
     {
         "id": "#staticBackdrop",
-        "cardImg": "https://freerangestock.com/thumbnail/143299/night-view-of-city-buildings-with-sea.jpg",
+        "cardImg": "/src/assets/img/bg.jpg",
         "cardTitle": "IMPLANTES",
         "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
     },
     {
         "id": "#static",
-        "cardImg": "https://freerangestock.com/thumbnail/136223/hacker-stealing-information--double-exposure-effect.jpg",
+        "cardImg": "/src/assets/img/bg2.jpg",
         "cardTitle": "IMPLANTES",
         "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
     }

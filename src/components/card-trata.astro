@@ -1,12 +1,22 @@
 ---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
 interface Props {
   id: string;
-  src: string;
+  cardImg: string;
   cardTitle: string;
   cardText: string;
 }
 
-const { id, src, cardTitle, cardText } = Astro.props;
+const { id, cardImg, cardTitle, cardText } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/img/*.{jpeg,jpg,png,gif}"
+);
+if (!images[cardImg])
+  throw new Error(
+    `"${cardImg}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`
+  );
 ---
 
 <div class="col-12 col-md-6 col-lg-4">
@@ -18,7 +28,12 @@ const { id, src, cardTitle, cardText } = Astro.props;
       data-bs-toggle="modal"
       data-bs-target={id}
     >
-      <img src={src} class="card-img" alt={cardTitle} />
+      <Image
+        src={images[cardImg]()}
+        class="card-img"
+        alt={cardTitle}
+        height={250}
+      />
       <div class="card-img-overlay text-center">
         <h5 class="card-title text-black">{cardTitle}</h5>
         <p class="card-text">{cardText}</p>

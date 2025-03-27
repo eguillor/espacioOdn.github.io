@@ -1,7 +1,10 @@
 ---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
 interface Props {
   id: string;
-  src: string;
+  cardImgModal: string;
   cardTitleModal: string;
   cardPreg1: string;
   cardRes1: string;
@@ -15,7 +18,7 @@ interface Props {
 
 const {
   id,
-  src,
+  cardImgModal,
   cardTitleModal,
   cardPreg1,
   cardRes1,
@@ -26,6 +29,14 @@ const {
   cardPreg4,
   cardRes4,
 } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/img/*.{jpeg,jpg,png,gif}"
+);
+if (!images[cardImgModal])
+  throw new Error(
+    `"${cardImgModal}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`
+  );
 ---
 
 <!-- Modal -->
@@ -60,10 +71,11 @@ const {
                   {cardRes1}
                 </p>
                 <div class="d-flex justify-content-center mt-4">
-                  <img
-                    src={src}
+                  <Image
+                    src={images[cardImgModal]()}
                     class="card-img w-75 h-75 rounded-2 shadow-lg"
                     alt={cardTitleModal}
+                    height={250}
                   />
                 </div>
               </div>
