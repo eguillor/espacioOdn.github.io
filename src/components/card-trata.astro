@@ -10,6 +10,7 @@ interface Props {
 }
 
 const { id, cardImg, cardTitle, cardText } = Astro.props;
+
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/img/*.{jpeg,jpg,png,gif}"
 );
@@ -20,14 +21,14 @@ if (!images[cardImg])
 ---
 
 <div class="col-12 col-md-6 col-lg-4">
-  <div class="card card-trat shadow-lg">
-    <a
-      href="#"
-      class="text-decoration-none"
-      type="button"
-      data-bs-toggle="modal"
-      data-bs-target={id}
-    >
+  <a
+    href="#"
+    class="text-decoration-none"
+    type="button"
+    data-bs-toggle="modal"
+    data-bs-target={id}
+  >
+    <div class="card card-trat shadow-lg">
       <Image
         src={images[cardImg]()}
         class="card-img"
@@ -46,6 +47,6 @@ if (!images[cardImg])
           >Ver mas</a
         >
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 </div>
