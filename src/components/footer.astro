@@ -1,12 +1,21 @@
 ---
 import logo1 from "../assets/logo-1.png";
+import { Image } from "astro:assets";
 ---
 
 <footer>
   <div class="shapeTop"></div>
   <section class="container">
     <div class="row d-flex flex-wrap align-items-center py-4">
-      <img class="col-md-4 mb-0 img-fluid" src={logo1.src} alt="" />
+      <Image
+        class="col-md-4 mb-0 img-fluid"
+        src={logo1}
+        width={400}
+        loading="lazy"
+        format="webp"
+        alt="Espacio odontologico Logo"
+        style="filter: drop-shadow(0 0 0.75rem rgb(109, 107, 107));"
+      />
 
       <div class="col-md-4">
         <span>
