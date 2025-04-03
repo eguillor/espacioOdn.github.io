@@ -1,24 +1,21 @@
 @import 'bootstrap/scss/bootstrap';
 
 .btn-primary {
-    --bs-btn-color: #fff;
+    --bs-btn-color: #242529;
     --bs-btn-bg: #88909d;
     --bs-btn-border-color: #88909d;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: #242529;
     --bs-btn-hover-bg: #787f8a;
     --bs-btn-hover-border-color: #787f8a;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
+    --bs-btn-active-color: #242529;
     --bs-btn-active-bg: #626871;
     --bs-btn-active-border-color: #626871;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-color: #242529;
     --bs-btn-disabled-bg: #626871;
     --bs-btn-disabled-border-color: #626871;
 }
-
-
-
 
 
 ::-webkit-scrollbar {
