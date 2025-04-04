@@ -76,8 +76,11 @@ body {
     opacity: 1;
 }
 
-.emer{
-    background-image:linear-gradient(to right, #88909d, transparent), url(./img/bg.jpg);
+.emer {
+    background-image: linear-gradient(to right, #88909d, transparent),
+        url(https://doctadent.com.ar/wp-content/uploads/2021/07/bg4.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
     opacity: 0.9;
     background-size: cover;
     background-attachment: fixed;
