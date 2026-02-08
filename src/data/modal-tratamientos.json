@@ -3,120 +3,120 @@
     "id":"implants",
     "cardTitleModal":"🦷 Implantes dentales",
     "cardPreg1":"¿Qué es un implante dental?",
-    "cardRes1":"Es un tornillo de titanio que se coloca en el hueso para reemplazar la raíz de un diente perdido y sobre el cual se coloca una corona que imita un diente natural.",
+    "cardRes1":"🦷 Es un tornillo de titanio que se coloca en el hueso para reemplazar la raíz de un diente perdido y sobre el cual se coloca una corona que imita un diente natural.",
     "cardPreg2":"¿El tratamiento es doloroso?",
-    "cardRes2":"No. Se realiza con anestesia local y, en general, el postoperatorio es leve y controlable con medicación.",
+    "cardRes2":"🦷 No. Se realiza con anestesia local y, en general, el postoperatorio es leve y controlable con medicación.",
     "cardPreg3":"¿Cuánto tiempo dura un implante?",  
-    "cardRes3":"Con buenos cuidados e higiene, un implante puede durar muchos años e incluso toda la vida.",  
+    "cardRes3":"🦷 Con buenos cuidados e higiene, un implante puede durar muchos años e incluso toda la vida.",  
     "cardPreg4":"¿Cualquiera puede colocarse implantes?",
-    "cardRes4":"La mayoría de los pacientes sí, aunque es necesario evaluar la salud general y la cantidad de hueso disponible."
+    "cardRes4":"🦷 La mayoría de los pacientes sí, aunque es necesario evaluar la salud general y la cantidad de hueso disponible."
     },
     {
     "id":"orthodontics",
     "cardTitleModal":"😁 Ortodoncia",
     "cardPreg1":"¿Para qué sirve la ortodoncia?",
-    "cardRes1":"Sirve para alinear los dientes y corregir problemas de mordida, mejorando tanto la estética como la función.",
+    "cardRes1":"😁 Sirve para alinear los dientes y corregir problemas de mordida, mejorando tanto la estética como la función.",
     "cardPreg2":"¿A qué edad se puede comenzar?",
-    "cardRes2":"Puede realizarse en niños, adolescentes y adultos. Nunca es tarde para mejorar la sonrisa.",
+    "cardRes2":"😁 Puede realizarse en niños, adolescentes y adultos. Nunca es tarde para mejorar la sonrisa.",
     "cardPreg3":"¿Duele usar brackets o alineadores?",  
-    "cardRes3":"Puede haber una leve molestia al inicio o en los ajustes, pero suele desaparecer en pocos días.",  
+    "cardRes3":"😁 Puede haber una leve molestia al inicio o en los ajustes, pero suele desaparecer en pocos días.",  
     "cardPreg4":"¿Cuánto dura el tratamiento?",
-    "cardRes4":"Depende de cada caso, pero generalmente dura entre 12 y 24 meses."
+    "cardRes4":"😁 Depende de cada caso, pero generalmente dura entre 12 y 24 meses."
     },
     {
     "id":"pediatricDentistry",
     "cardTitleModal":"👶 odontopediatria",
     "cardPreg1":"¿Desde qué edad debe ir un niño al dentista?",
-    "cardRes1":"Desde la aparición del primer diente o alrededor del primer año de vida.",
+    "cardRes1":"👶 Desde la aparición del primer diente o alrededor del primer año de vida.",
     "cardPreg2":"¿Por qué es importante la odontología infantil?",
-    "cardRes2":"Porque previene problemas futuros, cuida los dientes de leche y crea hábitos saludables desde pequeños.",
+    "cardRes2":"👶 Porque previene problemas futuros, cuida los dientes de leche y crea hábitos saludables desde pequeños.",
     "cardPreg3":"¿Cómo se maneja el miedo de los niños?",  
-    "cardRes3":"Con un enfoque amigable, paciencia y técnicas especiales para que el niño se sienta seguro y tranquilo.",  
+    "cardRes3":"👶 Con un enfoque amigable, paciencia y técnicas especiales para que el niño se sienta seguro y tranquilo.",  
     "cardPreg4":"¿Los dientes de leche también se tratan?",
-    "cardRes4":"Sí, son fundamentales para la masticación, el habla y la correcta erupción de los dientes definitivos."
+    "cardRes4":"👶 Sí, son fundamentales para la masticación, el habla y la correcta erupción de los dientes definitivos."
     },
     {
     "id":"cosmeticDentistry",
     "cardTitleModal":"✨ Odontología estética",
     "cardPreg1":"¿Qué tratamientos incluye la odontología estética?",
-    "cardRes1":"Carillas, contorneado dental, restauraciones estéticas y otros procedimientos para mejorar la sonrisa.",
+    "cardRes1":"✨ Carillas, contorneado dental, restauraciones estéticas y otros procedimientos para mejorar la sonrisa.",
     "cardPreg2":"¿Los resultados se ven naturales?",
-    "cardRes2":"Sí, se utilizan materiales y técnicas que imitan el color y la forma natural de los dientes.",
+    "cardRes2":"✨ Sí, se utilizan materiales y técnicas que imitan el color y la forma natural de los dientes.",
     "cardPreg3":"¿Es solo estética o también funcional?",  
-    "cardRes3":"Ambas. Además de verse mejor, muchos tratamientos mejoran la función dental.",  
+    "cardRes3":"✨ Ambas. Además de verse mejor, muchos tratamientos mejoran la función dental.",  
     "cardPreg4":"¿Los procedimientos son invasivos?",
-    "cardRes4":"La mayoría son mínimamente invasivos y conservan la mayor cantidad de diente natural."
+    "cardRes4":"✨ La mayoría son mínimamente invasivos y conservan la mayor cantidad de diente natural."
     },
     {
     "id":"dentalCleaning",
-    "cardTitleModal":"🪥 Limpieza dental",
+    "cardTitleModal":"🦷✨ Limpieza dental",
     "cardPreg1":"¿Cada cuánto se recomienda una limpieza dental?",
-    "cardRes1":"Generalmente cada 6 meses, aunque puede variar según cada paciente.",
+    "cardRes1":"🦷✨ Generalmente cada 6 meses, aunque puede variar según cada paciente.",
     "cardPreg2":"¿La limpieza dental duele?",
-    "cardRes2":"No debería doler. En algunos casos puede haber una leve sensibilidad momentánea.",
+    "cardRes2":"🦷✨ No debería doler. En algunos casos puede haber una leve sensibilidad momentánea.",
     "cardPreg3":"¿Qué beneficios tiene?",  
-    "cardRes3":"Previene caries, gingivitis, mal aliento y enfermedades de las encías.",  
+    "cardRes3":"🦷✨ Previene caries, gingivitis, mal aliento y enfermedades de las encías.",  
     "cardPreg4":"¿Elimina manchas?",
-    "cardRes4":"Sí, elimina manchas superficiales causadas por café, té, tabaco o alimentos."
+    "cardRes4":"🦷✨ Sí, elimina manchas superficiales causadas por café, té, tabaco o alimentos."
     },
     {
     "id":"teethWhitening",
     "cardTitleModal":"🤍 Blanqueamiento dental",
     "cardPreg1":"¿El blanqueamiento daña los dientes?",
-    "cardRes1":"No, cuando es realizado por un profesional es un tratamiento seguro.",
+    "cardRes1":"🤍 No, cuando es realizado por un profesional es un tratamiento seguro.",
     "cardPreg2":"¿Cuánto dura el efecto del blanqueamiento?",
-    "cardRes2":"Depende de los hábitos del paciente, pero suele durar entre 1 y 2 años.",
+    "cardRes2":"🤍 Depende de los hábitos del paciente, pero suele durar entre 1 y 2 años.",
     "cardPreg3":"¿Todos pueden blanquearse los dientes?",  
-    "cardRes3":"No todos los casos son iguales. Es necesaria una evaluación previa.",  
+    "cardRes3":"🤍 No todos los casos son iguales. Es necesaria una evaluación previa.",  
     "cardPreg4":"¿Produce sensibilidad?",
-    "cardRes4":"Puede haber sensibilidad leve y temporal, que desaparece en pocos días."
+    "cardRes4":"🤍 Puede haber sensibilidad leve y temporal, que desaparece en pocos días."
     },
     {
     "id":"dentalSurgery",
     "cardTitleModal":"🦷 Cirugía dental",
     "cardPreg1":"¿Qué procedimientos incluye la cirugía dental?",
-    "cardRes1":"Extracciones complejas, muelas de juicio, cirugías periodontales y otros procedimientos quirúrgicos.",
+    "cardRes1":"🦷 Extracciones complejas, muelas de juicio, cirugías periodontales y otros procedimientos quirúrgicos.",
     "cardPreg2":"¿Es peligrosa la cirugía dental?",
-    "cardRes2":"No, se realiza con técnicas modernas y protocolos de seguridad.",
+    "cardRes2":"🦷 No, se realiza con técnicas modernas y protocolos de seguridad.",
     "cardPreg3":"¿Cómo es la recuperación?",  
-    "cardRes3":"Varía según el procedimiento, pero generalmente es rápida y controlada.",  
+    "cardRes3":"🦷 Varía según el procedimiento, pero generalmente es rápida y controlada.",  
     "cardPreg4":"¿Se utiliza anestesia?",
-    "cardRes4":"Sí, siempre se utiliza anestesia local y, en algunos casos, sedación."
+    "cardRes4":"🦷 Sí, siempre se utiliza anestesia local y, en algunos casos, sedación."
     },
     {
     "id":"dentalProstheses",
     "cardTitleModal":"🦷 Prótesis dentales",
     "cardPreg1":"¿Qué son las prótesis dentales?",
-    "cardRes1":"Son dispositivos que reemplazan dientes ausentes, ya sean fijas o removibles.",
+    "cardRes1":"🦷 Son dispositivos que reemplazan dientes ausentes, ya sean fijas o removibles.",
     "cardPreg2":"¿Se ven naturales?",
-    "cardRes2":"Sí, están diseñadas para parecerse a los dientes naturales.",
+    "cardRes2":"🦷 Sí, están diseñadas para parecerse a los dientes naturales.",
     "cardPreg3":"¿Cuánto tiempo lleva adaptarse?",  
-    "cardRes3":"Puede llevar algunos días o semanas, dependiendo del tipo de prótesis.",  
+    "cardRes3":"🦷 Puede llevar algunos días o semanas, dependiendo del tipo de prótesis.",  
     "cardPreg4":"¿Requieren cuidados especiales?",
-    "cardRes4":"Sí, es importante mantener una buena higiene y controles periódicos."
+    "cardRes4":"🦷 Sí, es importante mantener una buena higiene y controles periódicos."
     },
     {
     "id":"boltAndCrowns",
     "cardTitleModal":"👑 Perno y coronas",
     "cardPreg1":"¿Cuándo se necesita un perno y una corona?",
-    "cardRes1":"Cuando un diente está muy dañado o tratado con conducto y necesita refuerzo.",
+    "cardRes1":"👑Cuando un diente está muy dañado o tratado con conducto y necesita refuerzo.",
     "cardPreg2":"¿La corona se ve como un diente natural?",
-    "cardRes2":"Sí, se adapta al color y forma del resto de los dientes.",
+    "cardRes2":"👑 Sí, se adapta al color y forma del resto de los dientes.",
     "cardPreg3":"¿Es un tratamiento duradero?",  
-    "cardRes3":"Con buenos cuidados, puede durar muchos años.",  
+    "cardRes3":"👑 Con buenos cuidados, puede durar muchos años.",  
     "cardPreg4":"¿El procedimiento duele?",
-    "cardRes4":"No, se realiza con anestesia local."
+    "cardRes4":"👑 No, se realiza con anestesia local."
     },
     {
     "id":"dentalEmergencies",
     "cardTitleModal":"🚨 Urgencias odontológicas",
     "cardPreg1":"¿Qué se considera una urgencia dental?",
-    "cardRes1":"Dolor intenso, infecciones, golpes, fracturas dentales o sangrado.",
+    "cardRes1":"🚨 Dolor intenso, infecciones, golpes, fracturas dentales o sangrado.",
     "cardPreg2":"¿Debo acudir de inmediato?",
-    "cardRes2":"Sí, una atención rápida evita complicaciones mayores.",
+    "cardRes2":"🚨 Sí, una atención rápida evita complicaciones mayores.",
     "cardPreg3":"¿Atienden fuera del horario habitual?",  
-    "cardRes3":"Depende del centro, pero muchas clínicas cuentan con atención de urgencias.",  
+    "cardRes3":"🚨 Depende del centro, pero muchas clínicas cuentan con atención de urgencias.",  
     "cardPreg4":"¿Qué hago mientras tanto?",
-    "cardRes4":"Evitar automedicarse y contactar al odontólogo lo antes posible."
+    "cardRes4":"🚨 Evitar automedicarse y contactar al odontólogo lo antes posible."
     }
 ]
