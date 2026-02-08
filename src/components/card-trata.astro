@@ -12,11 +12,11 @@ interface Props {
 const { id, cardImg, cardTitle, cardText } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/img/*.{jpeg,jpg,png,gif}"
+  "/src/assets/img/*.{jpeg,jpg,png,gif}",
 );
 if (!images[cardImg])
   throw new Error(
-    `"${cardImg}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`
+    `"${cardImg}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`,
   );
 ---
 
@@ -28,17 +28,18 @@ if (!images[cardImg])
     data-bs-toggle="modal"
     data-bs-target={id}
   >
-    <div class="card card-trat shadow-lg">
+    <div class="card card-trat shadow-lg text-center">
       <Image
         src={images[cardImg]()}
         class="card-img"
         alt={cardTitle}
         height={250}
+        width={400}
         loading="lazy"
       />
-      <div class="card-img-overlay text-center">
-        <h3 class="card-title text-black">{cardTitle}</h3>
-        <p class="card-text">{cardText}</p>
+      <div class="card-img-overlay">
+        <h3 class="card-title text-white">{cardTitle}</h3>
+        <p class="card-text text-white">{cardText}</p>
         <a
           href="/#"
           type="button"

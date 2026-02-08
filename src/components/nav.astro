@@ -8,7 +8,7 @@ import { Image } from "astro:assets";
     <a class="navbar-brand z-0" href="#1" aria-current="page" data-scroll-spy>
       <Image
         src={logo1}
-        class="img-fluid"
+        class="img-fluid wow animate__animated animate__pulse animate__infinite"
         loading="lazy"
         width="120"
         alt="Espacio odontologico Logo"
@@ -33,7 +33,7 @@ import { Image } from "astro:assets";
           <a class="nav-link" href="#2" data-scroll-spy> URGENCIAS 24 HS </a>
         </li>
 
-        <li class="nav-item dropdown z-3">
+        <li class="nav-item dropdown list-group">
           <button
             class="nav-link dropdown-toggle"
             data-bs-toggle="dropdown"
@@ -41,14 +41,105 @@ import { Image } from "astro:assets";
           >
             TRATAMIENTOS
           </button>
-          <ul class="dropdown-menu dropdown-menu-end">
+          <ul class="dropdown-menu dropdown-menu-end py-0">
+            <!-- Implantes Dentales -->
             <li>
               <a
-                class="dropdown-item"
+                class="list-group-item dropdown-item list-group-item-action"
                 href="#"
                 type="button"
                 data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">IMPLANTES</a
+                data-bs-target="#implants">Implantes Dentales</a
+              >
+            </li>
+            <!-- Ortodoncia -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#orthodontics">Ortodoncia</a
+              >
+            </li>
+            <!-- Odontopediatría -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#pediatricDentistry">Odontopediatría</a
+              >
+            </li>
+            <!-- Odontología estética -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#cosmeticDentistry">Odontología estética</a
+              >
+            </li>
+            <!-- Limpieza dental -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#dentalCleaning">Limpieza dental</a
+              >
+            </li>
+            <!-- Blanqueamiento dental -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#teethWhitening">Blanqueamiento dental</a
+              >
+            </li>
+            <!-- Cirugía dental -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#dentalSurgery">Cirugía dental</a
+              >
+            </li>
+            <!-- Prótesis dentales -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#dentalProstheses">Prótesis dentales</a
+              >
+            </li>
+            <!-- Perno y coronas -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#boltAndCrowns">Perno y coronas</a
+              >
+            </li>
+            <!-- Urgencias odontológicas -->
+            <li>
+              <a
+                class="list-group-item dropdown-item list-group-item-action"
+                href="#"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#dentalEmergencies">Urgencias odontológicas</a
               >
             </li>
           </ul>

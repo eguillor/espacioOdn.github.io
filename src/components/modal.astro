@@ -1,10 +1,8 @@
 ---
 import type { ImageMetadata } from "astro";
-import { Image } from "astro:assets";
 
 interface Props {
   id: string;
-  cardImgModal: string;
   cardTitleModal: string;
   cardPreg1: string;
   cardRes1: string;
@@ -18,7 +16,6 @@ interface Props {
 
 const {
   id,
-  cardImgModal,
   cardTitleModal,
   cardPreg1,
   cardRes1,
@@ -29,14 +26,6 @@ const {
   cardPreg4,
   cardRes4,
 } = Astro.props;
-
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/img/*.{jpeg,jpg,png,gif}"
-);
-if (!images[cardImgModal])
-  throw new Error(
-    `"${cardImgModal}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`
-  );
 ---
 
 <!-- Modal -->
@@ -51,7 +40,8 @@ if (!images[cardImgModal])
 >
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
-      <div class="modal-header border-0">
+      <div class="modal-header text-center">
+        <h3>{cardTitleModal}</h3>
         <button
           type="button"
           class="btn-close"
@@ -59,60 +49,67 @@ if (!images[cardImgModal])
           aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="col text-center mb-4">
-          <h3>{cardTitleModal}</h3>
-        </div>
-        <div class="row gap-3">
-          <div class="col">
-            <div class="row">
-              <div class="col-12 col-lg-6">
+        <div class="row row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+          <div class="col d-flex align-content-stretch">
+            <div class="card w-100">
+              <div class="card-header">
                 <h5>{cardPreg1}</h5>
+              </div>
+              <div class="card-body">
                 <p class="ms-1">
                   {cardRes1}
                 </p>
-                <div class="d-flex justify-content-center mt-4">
-                  <Image
-                    src={images[cardImgModal]()}
-                    loading="lazy"
-                    class="card-img w-75 h-75 rounded-2 shadow-lg"
-                    alt={cardTitleModal}
-                    height={250}
-                  />
-                </div>
-              </div>
-              <div class="col-12 col-lg-6 mt-4 mt-lg-0">
-                <h5>
-                  {cardPreg2}
-                </h5>
-                <p class="ms-1">
-                  {cardRes2}
-                </p>
-                <h5>
-                  {cardPreg3}
-                </h5>
-                <p class="ms-1">
-                  {cardRes3}
-                </p>
-                <h5>
-                  {cardPreg4}
-                </h5>
-                <p class="ms-1">
-                  {cardRes4}
-                </p>
-                <div class="row mt-4">
-                  <div class="col">
-                    <div class="d-grid gap-2 mx-auto w-50">
-                      <a
-                        href="https://wa.me/5490889612468"
-                        target="_blank"
-                        class="btn btn-primary">QUIERO SABER MÁS</a
-                      >
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
+
+          <div class="col d-flex align-content-stretch">
+            <div class="card w-100">
+              <div class="card-header">
+                <h5>{cardPreg2}</h5>
+              </div>
+              <div class="card-body">
+                <p class="ms-1">
+                  {cardRes2}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex align-content-stretch">
+            <div class="card w-100">
+              <div class="card-header">
+                <h5>{cardPreg3}</h5>
+              </div>
+              <div class="card-body">
+                <p class="ms-1">
+                  {cardRes3}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex align-content-stretch">
+            <div class="card w-100">
+              <div class="card-header">
+                <h5>{cardPreg4}</h5>
+              </div>
+              <div class="card-body">
+                <p class="ms-1">
+                  {cardRes4}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="d-grid gap-2 col-12 col-lg-4 mx-auto">
+          <a
+            href="https://wa.me/5490889612468"
+            target="_blank"
+            class="btn btn-primary">QUIERO SABER MÁS</a
+          >
         </div>
       </div>
     </div>

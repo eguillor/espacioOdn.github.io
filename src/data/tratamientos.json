@@ -1,15 +1,63 @@
 [
     {
-        "id": "#staticBackdrop",
-        "cardImg": "/src/assets/img/bg.jpg",
-        "cardTitle": "IMPLANTES",
-        "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
+        "id": "#implants",
+        "cardImg": "/src/assets/img/implantes.png",
+        "cardTitle": "Implantes Dentales",
+        "cardText": "Reemplazan dientes perdidos mediante un tornillo de titanio que se integra al hueso, devolviendo función, estética y seguridad al sonreír."
     },
     {
-        "id": "#static",
-        "cardImg": "/src/assets/img/bg2.jpg",
-        "cardTitle": "IMPLANTES",
-        "cardText": "Somos especialistas en implantes dentales y contamos con profesionales dedicados para este tratamiento."
+        "id": "#orthodontics",
+        "cardImg": "/src/assets/img/ortodoncia.jpg",
+        "cardTitle": "Ortodoncia",
+        "cardText": "Corrige la posición de los dientes y la mordida usando brackets o alineadores, mejorando tanto la estética como la salud bucal."
+    },
+    {
+        "id": "#pediatricDentistry",
+        "cardImg": "/src/assets/img/odontopediatria.jpg",
+        "cardTitle": "odontopediatria",
+        "cardText": "Atención dental especializada para niños, enfocada en la prevención, el cuidado temprano y la creación de hábitos saludables desde la infancia."
+    },
+    {
+        "id": "#cosmeticDentistry",
+        "cardImg": "/src/assets/img/estetica.jpg",
+        "cardTitle": "Odontología estética",
+        "cardText": "Mejora la apariencia de la sonrisa mediante tratamientos como carillas, contorneado dental y restauraciones estéticas."
+    },
+    {
+        "id": "#dentalCleaning",
+        "cardImg": "/src/assets/img/limpieza.jpg",
+        "cardTitle": "Limpieza dental",
+        "cardText": "Elimina placa bacteriana y sarro acumulado, ayudando a prevenir caries, gingivitis y enfermedades periodontales."
+    },
+    {
+        "id": "#teethWhitening",
+        "cardImg": "/src/assets/img/blanqueamiento.jpg",
+        "cardTitle": "Blanqueamiento dental",
+        "cardText": "Tratamiento seguro que aclara el tono de los dientes, devolviendo una sonrisa más luminosa y natural."
+    },
+    {
+        "id": "#dentalSurgery",
+        "cardImg": "/src/assets/img/ortodonciaInvisible.jpg",
+        "cardTitle": "Cirugía dental",
+        "cardText": "Procedimientos quirúrgicos como extracciones complejas, muelas de juicio o cirugías periodontales, realizados con técnicas modernas y seguras."
+    },
+    {
+        "id": "#dentalProstheses",
+        "cardImg": "/src/assets/img/protesis.jpg",
+        "cardTitle": "Prótesis dentales",
+        "cardText": "Reemplazan uno o varios dientes ausentes mediante prótesis fijas o removibles, restaurando función y estética."
+    },
+    {
+        "id": "#boltAndCrowns",
+        "cardImg": "/src/assets/img/pernoycorona.jpg",
+        "cardTitle": "Perno y coronas",
+        "cardText": "Reconstruyen dientes muy dañados, fortaleciendo la estructura interna y devolviendo su forma y funcionalidad original."
+    },
+    {
+        "id": "#dentalEmergencies",
+        "cardImg": "/src/assets/img/urgencias.jpg",
+        "cardTitle": "Urgencias odontológicas",
+        "cardText": "Atención inmediata para dolor dental, infecciones, fracturas o traumatismos, brindando alivio rápido y eficaz."
     }
     
 ]
