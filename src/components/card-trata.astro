@@ -20,34 +20,33 @@ if (!images[cardImg])
   );
 ---
 
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col d-flex justify-content-center">
   <a
     href={id}
-    class="text-decoration-none"
+    class="text-decoration-none link-light"
     type="button"
     data-bs-toggle="modal"
     data-bs-target={id}
   >
-    <div class="card card-trat shadow-lg text-center">
+    <div class="card card-trat shadow-lg card-overlay-bottom">
       <Image
         src={images[cardImg]()}
-        class="card-img"
+        class="card-img img-fluid"
         alt={cardTitle}
-        height={250}
-        width={300}
         loading="lazy"
       />
-      <div class="card-img-overlay">
-        <h3 class="card-title text-white">{cardTitle}</h3>
-        <p class="card-text text-white">{cardText}</p>
-        <a
-          href="/#"
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target={id}
-          class="btn btn-primary shadow position-absolute bottom-0 start-50 translate-middle-x mb-3"
-          >Ver mas</a
-        >
+      <div class="mt-auto card-img-overlay d-flex align-items-end">
+        <div class="mt-auto text-white">
+          <h4 class="card-title">{cardTitle}</h4>
+          <p class="card-text">{cardText}</p>
+          <a
+            href="/#"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target={id}
+            class="btn btn-primary shadow mb-1 my-2">Ver mas</a
+          >
+        </div>
       </div>
     </div>
   </a>

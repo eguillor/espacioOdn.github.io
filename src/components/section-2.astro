@@ -9,7 +9,7 @@ import ModalTrata from "../data/modal-tratamientos.json";
   <div class="row">
     <div class="col text-center mb-3">
       <h2>TRATAMIENTOS ODONTOLÓGICOS</h2>
-      <p>
+      <p class="lead">
         En <b>ESPACIO ODONTOLÓGICO</b> nos ocupamos del diagnóstico y de tratamientos
         terapéuticos y estéticos.
       </p>
@@ -17,7 +17,7 @@ import ModalTrata from "../data/modal-tratamientos.json";
 
     <div class="col-12">
       <div
-        class="row gax-3 d-flex justify-content-around wow animate__animated animate__bounceIn animate__slow"
+        class="row d-flex justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 wow animate__animated animate__bounceIn animate__slow"
       >
         {
           Tratamientos.map((tratamientos) => {
@@ -41,7 +41,6 @@ import ModalTrata from "../data/modal-tratamientos.json";
     return (
       <Modal
         id={modalTrata.id}
-        cardImgModal={modalTrata.cardImgModal}
         cardTitleModal={modalTrata.cardTitleModal}
         cardPreg1={modalTrata.cardPreg1}
         cardRes1={modalTrata.cardRes1}

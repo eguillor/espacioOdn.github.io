@@ -305,17 +305,42 @@ footer{
    
 transition-duration: 1s;
     transition-property: scale;
-    text-shadow: 2px 2px 3px #000000;
+    
+    }
+
+.card-img-overlay {
+    z-index: 2;
+}
+.card-img-overlay p {
+    font-size: 12px;
+
 }
 
-.card-trat:hover{
+.card-trat:hover {
  scale: 1.02;
+ cursor: pointer;
 }
 
+.card-trat .btn:hover {
+    scale: 1.02;
+}
 
-// .card-img{
-//     mask-image: linear-gradient(  transparent, black 90%);
-// }
+.card-img {
+    width: 21rem;
+    height: 21rem;
+background-color: rgba(0, 0, 0, 0.6);
+}
+ 
 
-
-
+.card-overlay-bottom::before {
+    content: "";
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #6b6b6b 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 0.375rem;;
+}
