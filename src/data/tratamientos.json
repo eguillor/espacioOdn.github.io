@@ -37,7 +37,7 @@
     },
     {
         "id": "#dentalSurgery",
-        "cardImg": "/src/assets/img/Tratamientos/ortodonciaInvisible.jpg",
+        "cardImg": "/src/assets/img/Tratamientos/pernoycorona.jpg",
         "cardTitle": "Cirugía dental",
         "cardText": "Procedimientos quirúrgicos como extracciones complejas, muelas de juicio o cirugías periodontales, realizados con técnicas modernas y seguras."
     },
@@ -49,7 +49,7 @@
     },
     {
         "id": "#boltAndCrowns",
-        "cardImg": "/src/assets/img/Tratamientos/pernoycorona.jpg",
+        "cardImg": "/src/assets/img/Tratamientos/ortodonciaInvisible.jpg",
         "cardTitle": "Perno y coronas",
         "cardText": "Reconstruyen dientes muy dañados, fortaleciendo la estructura interna y devolviendo su forma y funcionalidad original."
     },

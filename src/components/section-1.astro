@@ -1,73 +1,43 @@
 ---
-import bg from "../assets/img/bg.jpg";
-import bg2 from "../assets/img/bg2.jpg";
 import logo1 from "../assets/logo-1.png";
 import { Image } from "astro:assets";
 ---
 
-<section id="1" class="section-1 position-relative" data-scroll-spy>
-  <div
-    id="carouselExampleSlidesOnly"
-    class="carousel slide"
-    data-bs-ride="carousel"
-  >
-    <div class="carousel-inner z-n1 position-absolute">
-      <div class="carousel-item active">
-        <Image
-          fetchpriority="high"
-          src={bg}
-          class="d-block w-100"
-          alt="asfas"
-          loading="eager"
-          fetchpriority="high"
-          format="webp"
-        />
-      </div>
-      <div class="carousel-item">
-        <Image
-          fetchpriority="high"
-          src={bg2}
-          class="d-block w-100"
-          alt="aasf"
-          loading="eager"
-          fetchpriority="high"
-          format="webp"
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    class="elementor-widget wow animate__animated animate__fadeIn animate__slow"
-  >
-    <Image
-      src={logo1}
-      class="img-fluid"
-      width={400}
-      loading="eager"
-      fetchpriority="high"
-      alt="Espacio odontologico Logo"
-      format="avif"
-    />
-
+<div style="background-color: #4e5e8b;">
+  <div class="shapeTop"></div>
+  <section id="1" class="section-1" data-scroll-spy>
     <div
-      class="mt-4 d-grid gap-2 d-md-flex flex-column flex-md-row justify-content-center"
+      class="elementor-widget wow animate__animated animate__fadeIn animate__slow"
     >
-      <a
-        href="https://wa.me/5490889612468"
-        target="_blank"
-        aria-label="TURNOS PROGRAMADOS"
-        class="card-trat btn btn-primary me-0 me-md-5 shadow px-5 py-2"
-        >TURNOS PROGRAMADOS <i class="bi bi-whatsapp ms-2"></i></a
-      >
-      <a
-        href="https://wa.me/5490889612468"
-        target="_blank"
-        aria-label="URGENCIAS 24 HS"
-        class="card-trat btn btn-primary ms-0 ms-md-5 shadow px-5 py-2"
-        >URGENCIAS 24 HS <i class="bi bi-hospital ms-2"></i></a
-      >
-    </div>
-  </div>
+      <Image
+        src={logo1}
+        class="img-fluid"
+        width={400}
+        loading="eager"
+        fetchpriority="high"
+        alt="Espacio odontologico Logo"
+        format="avif"
+      />
 
-  <div class="shapeBottomAnimation"></div>
-</section>
+      <div
+        class="mt-4 d-grid gap-2 d-md-flex flex-column flex-md-row justify-content-center"
+      >
+        <a
+          href="https://wa.me/5490889612468"
+          target="_blank"
+          aria-label="TURNOS PROGRAMADOS"
+          class="card-trat btn btn-primary me-0 me-md-5 shadow px-5 py-2"
+          >TURNOS PROGRAMADOS <i class="bi bi-whatsapp ms-2"></i></a
+        >
+        <a
+          href="https://wa.me/5490889612468"
+          target="_blank"
+          aria-label="URGENCIAS 24 HS"
+          class="card-trat btn btn-primary ms-0 ms-md-5 shadow px-5 py-2"
+          >URGENCIAS 24 HS <i class="bi bi-hospital ms-2"></i></a
+        >
+      </div>
+    </div>
+  </section>
+  <div class="shapeBottom"></div>
+</div>
