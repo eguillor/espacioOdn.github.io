@@ -32,24 +32,30 @@ body {
 
 
 
+ .espacio {
+     font-size: 40px;
+     font-weight: 500;
+     color: #555;
+     letter-spacing: 18px;
+     /* Controla el espaciado entre letras */
+     line-height: 1;
+     margin-bottom: 5px;
+     padding-left: 18px;
+     /* Compensa el tracking al final */
+ }
+
+ .odontologico {
+     font-size: 28px;
+     font-weight: 300;
+     color: #79b8c5;
+     /* Color celeste similar al de la imagen */
+     letter-spacing: 6.5px;
+     width: 100%;
+     text-align: center;
+ }
 
 
-.carousel-item {
-    height: 35rem;
-}
 
-
-
-.carousel-item>img {
-    position: absolute;
-    height: 23rem;
-    object-fit: cover;
-
-    mask-image: linear-gradient(
-         transparent, black  80%
-    );
-    
-}
 
 .elementor-widget  {
     text-align: center;
@@ -57,7 +63,7 @@ body {
 }
 
 .emer {
-    background-image: linear-gradient(to right, #88909d, transparent),
+    background-image: linear-gradient(to right, #4e5e8b, transparent),
         url(https://doctadent.com.ar/wp-content/uploads/2021/07/bg4.jpg);
     background-position: center right;
     background-repeat: no-repeat;
@@ -104,7 +110,7 @@ body {
     overflow: hidden;
     position: relative;
     margin: auto;
-        height: 5rem;
+        height: 6rem;
 }
 
 .shapeTop::before {
