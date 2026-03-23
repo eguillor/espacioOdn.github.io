@@ -18,6 +18,8 @@ import { Image } from "astro:assets";
           src={bg}
           class="d-block w-100"
           alt="asfas"
+          loading="eager"
+          fetchpriority="high"
           format="webp"
         />
       </div>
@@ -27,6 +29,8 @@ import { Image } from "astro:assets";
           src={bg2}
           class="d-block w-100"
           alt="aasf"
+          loading="eager"
+          fetchpriority="high"
           format="webp"
         />
       </div>
@@ -39,6 +43,8 @@ import { Image } from "astro:assets";
       src={logo1}
       class="img-fluid"
       width={400}
+      loading="eager"
+      fetchpriority="high"
       alt="Espacio odontologico Logo"
       format="avif"
     />
@@ -49,12 +55,14 @@ import { Image } from "astro:assets";
       <a
         href="https://wa.me/5490889612468"
         target="_blank"
+        aria-label="TURNOS PROGRAMADOS"
         class="card-trat btn btn-primary me-0 me-md-5 shadow px-5 py-2"
         >TURNOS PROGRAMADOS <i class="bi bi-whatsapp ms-2"></i></a
       >
       <a
         href="https://wa.me/5490889612468"
         target="_blank"
+        aria-label="URGENCIAS 24 HS"
         class="card-trat btn btn-primary ms-0 ms-md-5 shadow px-5 py-2"
         >URGENCIAS 24 HS <i class="bi bi-hospital ms-2"></i></a
       >

@@ -1,54 +1,53 @@
 [
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 1",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
-    },{
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 2",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.PIZARRO.png",
+        "cardNameProfe": "OD. PIZZARRO CABALLERO FACUNDO"
     },
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 3",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.FlorenciaCastillo.png",
+        "cardNameProfe": "OD. Florencia Castillo"
     },
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 4",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
-    },{
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 5",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.JuliánRamirez.png",
+        "cardNameProfe": "OD. Julián Ramirez"
+    },
+
+
+    {
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.ORELLANO.png",
+        "cardNameProfe": "OD. ORELLANO JULIETA"
     },
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 6",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.LaraELIMAGUIRRE.png",
+        "cardNameProfe": "OD. Lara ELIM AGUIRRE"
     },
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 7",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
-    },{
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 8",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.máscologeraldine.png",
+        "cardNameProfe": "OD. Máscolo Geraldine"
     },
     {
-        "cardImgProfe":"https://randomuser.me/api/portraits/men/52.jpg",
-        "cardNameProfe": "Dra. Fani Tapia 9",
-        "cardProfeCargo": "Directora de DOCTA DENT | Cirugía e Implantología",
-        "cardProfeCode": "MP 5.688"
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.Anderson.png",
+        "cardNameProfe": "OR.RAMIREZ QUIJADA. ANDERSON"
+    },
+
+    
+    {
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.EVADIRASSAR.png",
+        "cardNameProfe": "OD. DIRASSAR. EVA"
+    },
+    {
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.RALPHCATALINA.png",
+        "cardNameProfe": "OD. RALPH CATALINA"
+    },
+    {
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.RocioHernandez.png",
+        "cardNameProfe": "OD. Rocio Hernandez"
+    },
+    {
+        "cardImgProfe":"/src/assets/img/Profesionales/OD.gross,berenice.png",
+        "cardNameProfe": "OD. Gross Berenice"
     }
+
+
     
 ]

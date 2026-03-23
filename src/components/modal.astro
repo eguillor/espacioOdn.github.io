@@ -41,63 +41,107 @@ const {
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h3>{cardTitleModal}</h3>
+        <h3 class="text-primary">{cardTitleModal}</h3>
         <button
           type="button"
-          class="btn-close"
+          class="btn-close d-inline-flex focus-ring focus-ring-secondary p-2 text-decoration-none border rounded-2"
           data-bs-dismiss="modal"
           aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
-          <div class="col d-flex align-content-stretch">
-            <div class="card w-100">
-              <div class="card-header">
-                <h5>{cardPreg1}</h5>
-              </div>
-              <div class="card-body">
-                <p class="ms-1">
-                  {cardRes1}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col d-flex align-content-stretch">
-            <div class="card w-100">
-              <div class="card-header">
-                <h5>{cardPreg2}</h5>
-              </div>
-              <div class="card-body">
-                <p class="ms-1">
-                  {cardRes2}
-                </p>
+        <div class="accordion shadow-sm" id={id}>
+          <div class="accordion-item">
+            <h5 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                {cardPreg1}
+              </button>
+            </h5>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent={`#${id}`}
+            >
+              <div class="accordion-body">
+                {cardRes1}
               </div>
             </div>
           </div>
 
-          <div class="col d-flex align-content-stretch">
-            <div class="card w-100">
-              <div class="card-header">
-                <h5>{cardPreg3}</h5>
-              </div>
-              <div class="card-body">
-                <p class="ms-1">
-                  {cardRes3}
-                </p>
+          <div class="accordion-item">
+            <h5 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                {cardPreg2}
+              </button>
+            </h5>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent={`#${id}`}
+            >
+              <div class="accordion-body">
+                {cardRes2}
               </div>
             </div>
           </div>
 
-          <div class="col d-flex align-content-stretch">
-            <div class="card w-100">
-              <div class="card-header">
-                <h5>{cardPreg4}</h5>
+          <div class="accordion-item">
+            <h5 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                {cardPreg3}
+              </button>
+            </h5>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent={`#${id}`}
+            >
+              <div class="accordion-body">
+                {cardRes3}
               </div>
-              <div class="card-body">
-                <p class="ms-1">
-                  {cardRes4}
-                </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h5 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                {cardPreg4}
+              </button>
+            </h5>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent={`#${id}`}
+            >
+              <div class="accordion-body">
+                {cardRes4}
               </div>
             </div>
           </div>

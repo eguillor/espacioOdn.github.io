@@ -1,6 +1,7 @@
 [
     {
     "id":"implants",
+    
     "cardTitleModal":"🦷 Implantes dentales",
     "cardPreg1":"¿Qué es un implante dental?",
     "cardRes1":"🦷 Es un tornillo de titanio que se coloca en el hueso para reemplazar la raíz de un diente perdido y sobre el cual se coloca una corona que imita un diente natural.",
@@ -25,7 +26,7 @@
     },
     {
     "id":"pediatricDentistry",
-    "cardTitleModal":"👶 odontopediatria",
+    "cardTitleModal":"👶 Odontopediatria",
     "cardPreg1":"¿Desde qué edad debe ir un niño al dentista?",
     "cardRes1":"👶 Desde la aparición del primer diente o alrededor del primer año de vida.",
     "cardPreg2":"¿Por qué es importante la odontología infantil?",

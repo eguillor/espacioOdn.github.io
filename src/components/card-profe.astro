@@ -1,29 +1,30 @@
 ---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
 interface Props {
   cardImgProfe: string;
   cardNameProfe: string;
-  cardProfeCargo: string;
-  cardProfeCode: string;
 }
 
-const { cardImgProfe, cardNameProfe, cardProfeCargo, cardProfeCode } =
-  Astro.props;
+const { cardImgProfe, cardNameProfe } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/img/Profesionales/*.{jpeg,jpg,png,gif}",
+);
+if (!images[cardImgProfe])
+  throw new Error(
+    `"${cardImgProfe}" does not exist in glob: "/src/assets/img/Profesionales*.{jpeg,jpg,png,gif}"`,
+  );
 ---
 
 <div class="swiper-slide d-flex justify-content-center">
-  <div class="card profile-card shadow-sm">
-    <div class="card-body text-center">
-      <img
-        loading="lazy"
-        src={cardImgProfe}
-        alt={cardNameProfe}
-        class="rounded-circle profile-img mb-3"
-      />
-      <h3 class="card-title mb-2">{cardNameProfe}</h3>
-      <p class="card-text text-muted mb-3">
-        {cardProfeCargo}
-      </p>
-      <p class="card-text text-muted">{cardProfeCode}</p>
-    </div>
+  <div class="card profile-card" style="width: 18rem;">
+    <Image
+      src={images[cardImgProfe]()}
+      class="img-fluid rounded-3"
+      alt={cardNameProfe}
+      loading="lazy"
+    />
   </div>
 </div>

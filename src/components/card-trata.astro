@@ -12,11 +12,11 @@ interface Props {
 const { id, cardImg, cardTitle, cardText } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/img/*.{jpeg,jpg,png,gif}",
+  "/src/assets/img/Tratamientos/*.{jpeg,jpg,png,gif}",
 );
 if (!images[cardImg])
   throw new Error(
-    `"${cardImg}" does not exist in glob: "/src/assets/img/*.{jpeg,jpg,png,gif}"`,
+    `"${cardImg}" does not exist in glob: "/src/assets/img/Tratamientos/*.{jpeg,jpg,png,gif}"`,
   );
 ---
 
@@ -45,7 +45,8 @@ if (!images[cardImg])
             type="button"
             data-bs-toggle="modal"
             data-bs-target={id}
-            class="btn btn-primary shadow mb-1 my-2">Ver mas</a
+            class="d-flex justify-content-center btn btn-primary shadow mb-1 my-2 mx-5"
+            >Ver mas</a
           >
         </div>
       </div>
