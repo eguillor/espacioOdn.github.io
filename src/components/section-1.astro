@@ -1,73 +1,103 @@
 ---
+import bg from "../assets/img/bg.jpg";
+import bg2 from "../assets/img/bg2.jpg";
 import logo1 from "../assets/logo.png";
 import { Image } from "astro:assets";
 ---
 
-<div style="background-color: #4e5e8b;">
-  <div class="shapeTop"></div>
-  <section id="1" class="section-1" data-scroll-spy>
-    <div
-      class="elementor-widget wow animate__animated animate__fadeIn animate__slow"
-    >
-      <Image
-        src={logo1}
-        class="img-fluid"
-        width={70}
-        loading="eager"
-        fetchpriority="high"
-        alt="Espacio odontologico Logo"
-        format="avif"
-        style="filter: drop-shadow(0 0 0.75rem rgb(248, 249, 250);"
-      />
-      <div class="justify-content-center">
-        <p class="espacio">ESPACIO</p>
-        <p class="odontologico">ODONTOLOICO</p>
+<section id="1" class="section-1 position-relative" data-scroll-spy>
+  <div
+    id="carouselExampleSlidesOnly"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner z-n1 position-absolute">
+      <div class="carousel-item active">
+        <Image
+          fetchpriority="high"
+          src={bg}
+          class="d-block w-100"
+          alt="asfas"
+          loading="eager"
+          fetchpriority="high"
+          format="webp"
+        />
       </div>
-
-      <div
-        class="mt-4 d-grid gap-2 d-md-flex flex-column flex-md-row justify-content-center"
-      >
-        <a
-          href="https://wa.me/5490889612468"
-          target="_blank"
-          aria-label="TURNOS PROGRAMADOS"
-          class="card-trat btn btn-danger me-0 me-md-5 shadow px-5 py-2"
-          >TURNOS PROGRAMADOS <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-whatsapp ms-2"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
-            ></path>
-          </svg></a
-        >
-        <a
-          href="https://wa.me/5490889612468"
-          target="_blank"
-          aria-label="URGENCIAS 24 HS"
-          class="card-trat btn btn-danger ms-0 ms-md-5 shadow px-5 py-2"
-          >URGENCIAS 24 HS <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-hospital ms-2"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"
-            ></path>
-            <path
-              d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z"
-            ></path>
-          </svg></a
-        >
+      <div class="carousel-item">
+        <Image
+          fetchpriority="high"
+          src={bg2}
+          class="d-block w-100"
+          alt="aasf"
+          loading="eager"
+          fetchpriority="high"
+          format="webp"
+        />
       </div>
     </div>
-  </section>
+  </div>
+  <div
+    class="elementor-widget wow animate__animated animate__fadeIn animate__slow"
+  >
+    <Image
+      src={logo1}
+      class="img-fluid"
+      width={70}
+      loading="eager"
+      fetchpriority="high"
+      alt="Espacio odontologico Logo"
+      format="avif"
+      style="filter: drop-shadow(0 0 0.75rem rgb(248, 249, 250);"
+    />
+    <div class="justify-content-center">
+      <p class="espacio">ESPACIO</p>
+      <p class="odontologico">ODONTOLOICO</p>
+    </div>
+
+    <div
+      class="mt-4 d-grid gap-2 d-md-flex flex-column flex-md-row justify-content-center"
+    >
+      <a
+        href="https://wa.me/3512052887"
+        target="_blank"
+        aria-label="TURNOS PROGRAMADOS"
+        class="card-trat btn btn-danger me-0 me-md-5 shadow px-5 py-2"
+        >TURNOS PROGRAMADOS <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-whatsapp ms-2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+          ></path>
+        </svg></a
+      >
+      <a
+        href="https://wa.me/3512052887"
+        target="_blank"
+        aria-label="URGENCIAS 24 HS"
+        class="card-trat btn btn-danger ms-0 ms-md-5 shadow px-5 py-2"
+        >URGENCIAS 24 HS <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-hospital ms-2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"
+          ></path>
+          <path
+            d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z"
+          ></path>
+        </svg></a
+      >
+    </div>
+  </div>
+
   <div class="shapeBottom"></div>
-</div>
+</section>
